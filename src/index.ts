@@ -11,7 +11,7 @@ interface PluginConfig {
 const DEFAULT_CONFIG: Required<PluginConfig> = {
   maxFileSize: 100 * 1024,
   ignoredPatterns: ["node_modules", ".git", "dist", "*.log"],
-  referenceFiles: ["CLAUDE.md", "AGENTS.md", "CLAUDE.md", ".claude/CLAUDE.md"],
+  referenceFiles: ["CLAUDE.md", "AGENTS.md", "MEMORY.md", ".claude/CLAUDE.md"],
 };
 
 function resolvePath(baseDir: string, ref: string): string {
