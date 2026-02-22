@@ -1,0 +1,34 @@
+{
+  "name": "opencode-claude-style-at-expansion",
+  "version": "0.1.0",
+  "description": "Expands @file references in CLAUDE.md/AGENTS.md into session context - similar to Claude Code's @ references",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "context",
+    "expansion",
+    "claude"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.2.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0"
+  },
+  "engines": {
+    "opencode": ">=1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.sammons.io/sammons/opencode-claude-style-at-expansion"
+  }
+}
